@@ -1,0 +1,27 @@
+{
+  "name": "MOCI Blue-Pink",
+  "type": "dark",
+  "colors": { },
+  "tokenColors": [
+    { "scope": "keyword.control.moci",
+      "settings": { "foreground": "#cba6f7" } },
+    { "scope": "string.quoted.double.moci",
+      "settings": { "foreground": "#89b4fa" } },
+    { "scope": "comment.line.tilde.moci",
+      "settings": { "foreground": "#6c7086", "fontStyle": "italic" } },
+    { "scope": "variable.other.moci",
+      "settings": { "foreground": "#f38ba8", "fontStyle": "bold" } },
+    { "scope": "variable.parameter.moci",
+      "settings": { "foreground": "#f2cdcd" } },
+    { "scope": "keyword.operator.moci",
+      "settings": { "foreground": "#94e2d5" } },
+    { "scope": "meta.brace.moci",
+      "settings": { "foreground": "#74c7ec" } },
+    { "scope": "constant.numeric.moci",
+      "settings": { "foreground": "#f9e2af" } },
+    { "scope": "entity.name.function.moci",
+      "settings": { "foreground": "#a6e3a1" } },
+    { "scope": "support.constant.moci",
+      "settings": { "foreground": "#fab387" } }
+  ]
+}

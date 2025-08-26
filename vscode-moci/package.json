@@ -1,0 +1,26 @@
+{
+  "name": "moci-syntax",
+  "displayName": "MOCI Language Support",
+  "description": "Syntax highlighting & blue-pink theme for MOCI",
+  "version": "0.0.1",
+  "publisher": "mocifm",
+  "engines": { "vscode": "^1.70.0" },
+  "categories": ["Programming Languages", "Themes"],
+  "contributes": {
+    "languages": [{
+      "id": "moci",
+      "aliases": ["MOCI"],
+      "extensions": [".moci"]
+    }],
+    "grammars": [{
+      "language": "moci",
+      "scopeName": "source.moci",
+      "path": "./syntaxes/moci.tmLanguage.json"
+    }],
+    "themes": [{
+      "label": "MOCI Blue-Pink",
+      "uiTheme": "vs-dark",
+      "path": "./themes/moci-theme.json"
+    }]
+  }
+}
