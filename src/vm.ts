@@ -24,3 +24,4 @@ export class VM {
     if(f) f.body.forEach((cmd:any) => { if(cmd.op==='increment') this.variables[cmd.var].default+=1; });
   }
 }
+ //test
