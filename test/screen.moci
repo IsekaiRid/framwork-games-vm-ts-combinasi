@@ -1,0 +1,26 @@
+#varibel = ''        ~ variabel string default ''
+fuc poin() => {      ~ fungsi poin
+    varibel+         ~ increment varibel (contoh)
+}
+
+moc screen.1() => {  ~ screen pertama
+    bg "school_hall.png" x.3 y.1
+    spaw "hero.png" x.200 y.300 animation.up
+
+    ops [
+        'Apa kamu yakin' => 'iya'[jump=>screen.2], 'tidak'[fuc=>poin]
+    ]
+
+    ops [
+        'Apa kamu yakin mau lanjut' => 'iya'[continue], 'tidak'[jump=>screen.2]
+    ]
+}
+
+moc screen.2() => {
+    bg "pantai.png"
+}
+
+moc screen.3() => 
+{
+    bg "lapangan.png"
+}
